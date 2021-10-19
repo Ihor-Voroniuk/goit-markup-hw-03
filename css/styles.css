@@ -1,0 +1,320 @@
+:root {
+    --color-p-text: #757575;
+    --color-h-text: #212121;
+    --color-link: #2196F3;
+    --color-sect-bg: #2F303A;
+    --color-bg: #FFFFFF;
+    --font-size-logo: 26px;
+    --font-family: "Roboto", sans-serif;
+    
+}
+.body-home{
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif, 'Raleway', sans-serif;
+    
+}
+
+.body-portfolio{
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif, 'Raleway', sans-serif;
+}
+/* for all LI*/
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;   
+} 
+
+.web-logo{
+    margin-right: -4px;
+    display: inline-block;
+}
+
+.web-footer{
+    margin-right: -4px;
+    display: inline-block;
+}
+
+   /*Headr BG*/
+.header-bg{
+    background-color:var(--color-bg)
+}
+
+.portfolio-bg{
+    background-color: #FFFFFF;
+}
+    /*Logo nav*/
+.web-logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color:var(--color-link)
+}
+  /*Logo nav-2*/
+.studio-logo{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color:#000000;
+}
+   /* <nav> */
+.nav-link{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    color:var(--color-h-text);
+    
+}
+
+.nav-link-f{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    color:var(--color-link)
+}
+
+.nav-link:focus, .nav-link:hover{
+   color: var(--color-link);
+}
+  /* <nav> address */
+.address-link{
+    color:var(--color-p-text);
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    
+}
+.address-link:focus, .address-link:hover{
+    color:var(--color-link);
+}
+
+   /* section-1 */
+.sec-bg{
+    background-color: var(--color-sect-bg);
+    text-align: center;
+}
+  /* h1 section-1 */
+.effect-design{
+    font-family: "Roboto", sans-serif;;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.5;
+    color: #FFFFFF;
+    text-align: center;
+}
+  /* button section-1 */
+.button-service{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 30px;
+    cursor: pointer;
+    background-color:#188ce8;
+    color: var(--color-bg);
+    text-align: center;
+    align-items: center;
+}
+
+.button-service:focus, .button-service:hover{
+  color:var(--color-bg);
+  background-color: var(--color-link);
+}
+
+    /* btn-portfolio */
+.portf-btn{
+    cursor: pointer;
+    background-color:#F5F4FA;
+    color:var(--color-h-text);
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.portf-btn-f{ 
+    cursor: pointer;
+    color:var(--color-bg);
+    background-color: var(--color-link);
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
+.portf-btn:focus, .portf-btn:hover{
+    color:var(--color-bg);
+  background-color: var(--color-link);
+}
+
+   /* details */
+ .menu-list h3{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--color-h-text);
+}
+   /* details text */
+ .menu-list p{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--color-p-text);
+}
+     /* what we do */
+ .work-list h2{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--color-h-text);
+}
+     /* team */
+.team h2{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--color-h-text);
+
+}
+.team{
+    background-color:#F5F4FA ;
+}
+
+.team-list p{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color:var(--color-p-text);
+    text-align: center;
+}
+.team-list h3{ 
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color:var(--color-h-text);
+    text-align: center;
+}
+     /* Footer BG */
+.footer-bg{
+    background-color: var(--color-sect-bg);
+}
+     /* Footer Logo */
+.web-footer{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--color-link);
+}
+
+.studio-footer{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--color-bg);
+}
+     /* Footer address */
+.address-footer{
+    color:#FFFFFF60;
+    ;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+
+}
+
+.address-footer:focus, .address-footer:hover{
+    color:rgba(255, 255, 255, 0.6)
+    }
+
+.address-map{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    list-style-type: none;
+    color: white;
+    
+}
+
+.address-map:focus, .address-map:hover{
+    color: var(--color-link);
+}
+
+
+
+.portfolio-menu h3 {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: var(--color-h-text);
+}
+
+.portfolio-menu p{
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.03em;
+    color:var(--color-p-text)
+}
+
+.hidden-menu{
+    display: none;
+    
+}
