@@ -55,7 +55,7 @@ body{
 }
 
 .logo-list{
-    font-family: Raleway;
+    font-family: 'Raleway';
     font-weight: bold;
     font-size: 26px;
     line-height: 1.19;
@@ -368,12 +368,21 @@ body{
 .team-us{
     flex-basis: calc((100%-4 * 30px) / 4);
     margin-left: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
      /* Footer BG */
 .footer-bg{
     background-color: var(--color-sect-bg);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
      /* Footer Logo */
+.footer-logo{
+    margin-bottom: 20px;
+}
+
 .web-footer{
     font-family: 'Raleway';
     font-style: normal;
@@ -394,13 +403,12 @@ body{
     color: var(--color-bg);
 }
 .web-footer{
-    margin-right: -8px;
+    margin-right: -4px;
     display: inline-block;
 }
      /* Footer address */
 .address-footer{
     color:#FFFFFF60;
-    ;
     text-decoration: none;
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -408,7 +416,8 @@ body{
     font-size: 14px;
     line-height: 1.2;
     letter-spacing: 0.02em;
-
+    list-style-type: none;
+    margin: -40px;
 }
 
 .address-footer:focus, .address-footer:hover{
@@ -424,14 +433,31 @@ body{
     letter-spacing: 0.03em;
     list-style-type: none;
     color: white;
-    
+    margin-bottom: 9px;
 }
 
 .address-map:focus, .address-map:hover{
     color: var(--color-link);
 }
 
+.address-footer:not(:last-child) {
+    margin-bottom: 9px;
+  }
 
+          /*Portfolio*/
+  
+ .portfolio-sec{
+    padding-top: 94px;
+    padding-bottom: 94px;
+ } 
+ 
+ .menu-btn{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+ }
+
+ 
 
 .portfolio-menu h3 {
     font-family: "Roboto", sans-serif;
