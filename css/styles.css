@@ -326,6 +326,22 @@ body{
 }
 .team{
     background-color:#F5F4FA ;
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+.team-container{
+    font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
+.team-list{
+    display: flex;
+    margin-left: -30px;
+    margin-top: 50px;
 }
 
 .team-list p{
@@ -347,6 +363,11 @@ body{
     letter-spacing: 0.03em;
     color:var(--color-h-text);
     text-align: center;
+}
+
+.team-us{
+    flex-basis: calc((100%-4 * 30px) / 4);
+    margin-left: 30px;
 }
      /* Footer BG */
 .footer-bg{
