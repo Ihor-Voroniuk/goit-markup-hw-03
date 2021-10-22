@@ -76,11 +76,33 @@ section {
     align-items: center;
 }
 
-
-
-.portfolio-bg{
-    background-color: #FFFFFF;
+.header-nav{
+    display: inline-flex;
+    align-items: center;
 }
+
+.menu-nav{
+    display: inline-flex;
+    margin-left: 93px;
+}
+
+.menu-nav-text{
+    margin-right: 50px;
+    display: inline-flex;
+}
+
+.menu-addres{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+
+.menu-addres-text{
+    margin-right: 50px;
+    display: inline-flex;
+}
+
+
     /*Logo nav*/
 .web-logo{
     font-family: 'Raleway';
@@ -148,6 +170,9 @@ section {
 .sec-bg{
     background-color: var(--color-sect-bg);
     text-align: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
+
 }
   /* h1 section-1 */
 .effect-design{
@@ -158,6 +183,8 @@ section {
     line-height: 1.5;
     color: #FFFFFF;
     text-align: center;
+    margin: 0 auto 30px;
+    max-width: 696px;
 }
   /* --------button section-1---------- */
 .button-service{
@@ -171,16 +198,35 @@ section {
     color: var(--color-bg);
     text-align: center;
     align-items: center;
+    border-radius: 4px;
+    min-width: 200px;
+    height: 50px;
 }
-
+  
 .button-service:focus, .button-service:hover{
   color:var(--color-bg);
-  background-color: var(--color-link);
+  background-color:#0f9bec
 }
 
 
    /*---------------------- details------------------- */
- .menu-list h3{
+.menu-list{
+    padding-top: 94px;
+}
+
+   .details{
+    padding-bottom: 0px;
+    display: flex;
+    
+ }
+
+ .details-list{
+    flex-basis: calc(100% / 4 - 30px);
+    margin-left: 30px;
+    margin-top: 30px;
+ }
+ 
+   .menu-list h3{
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -188,16 +234,28 @@ section {
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--color-h-text);
+    margin-bottom: 10px;
 }
    /* details text */
+.work-item{
+    display: flex;
+}
+
+.work-img{
+    flex-basis: calc(100% / 3 - 30px);
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
  .menu-list p{
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
-    line-height: 1.2;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--color-p-text);
+    
 }
      /* what we do */
  .work-list h2{
@@ -208,6 +266,7 @@ section {
     line-height: 1.2;
     letter-spacing: 0.03em;
     color: var(--color-h-text);
+    text-align: center;
 }
      /* ------------------team -------------------*/
 .team h2{
@@ -306,33 +365,36 @@ section {
 /*---------------------- portfolio------------------- */
 
     /*---- btn-portfolio -----*/
-    .portf-btn{
-        cursor: pointer;
-        background-color:#F5F4FA;
-        color:var(--color-h-text);
-        font-family: "Roboto", sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
-    }
+.portf-btn{
+     cursor: pointer;
+    background-color:#F5F4FA;
+    color:var(--color-h-text);
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+}
     
-    .portf-btn-f{ 
-        cursor: pointer;
-        color:var(--color-bg);
-        background-color: var(--color-link);
-        font-family: "Roboto", sans-serif;
-        font-style: normal;
-        font-weight: 500;
-        font-size: 16px;
-        line-height: 26px;
-    }
-    .portf-btn:focus, .portf-btn:hover{
-        color:var(--color-bg);
-      background-color: var(--color-link);
-    }
-    
+.portf-btn-f{ 
+    cursor: pointer;
+    color:var(--color-bg);
+    background-color: var(--color-link);
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+     font-weight: 500;
+     font-size: 16px;
+     line-height: 26px;
+ }
 
+.portf-btn:focus, .portf-btn:hover{
+    color:var(--color-bg);
+    background-color: var(--color-link);
+}
+    
+.portfolio-bg{
+    background-color: #FFFFFF;
+}
 
 .portfolio-menu h3 {
     font-family: "Roboto", sans-serif;
