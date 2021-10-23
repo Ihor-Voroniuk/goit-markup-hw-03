@@ -9,6 +9,11 @@
     
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
 h1,
 h2,
 h3,
@@ -20,6 +25,7 @@ p {
 
 img{
     display: block;
+    
 }
 
 body{
@@ -476,10 +482,33 @@ section {
     font-size: 16px;
     line-height: 19px;
     letter-spacing: 0.03em;
-    color:var(--color-p-text)
+    color:var(--color-p-text);
+    
 }
 
 .hidden-menu{
     display: none;
     
 }
+
+.portfolio-menu{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -30px;
+    margin-bottom: -30px;
+}
+
+.portfolio-menu-list{
+    margin-right: 30px;
+    margin-bottom: 30px;
+    outline: 1px solid #eeeeee;
+}
+
+.portfolio-menu-text{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    
+}
+
