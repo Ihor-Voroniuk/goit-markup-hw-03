@@ -498,7 +498,9 @@ section {
 }
 
 .visually-hidden{
-    overflow: hidden;
+    visibility: hidden;
+    pointer-events: none;
+    position: absolute;
 }
 
 .portfolio-menu{
