@@ -261,7 +261,7 @@ section {
 .work-item{
     display: flex;
     margin-left: -30px;
-    margin-right: -30px;
+    margin-top: -30px;
 }
 
 .work-list{
@@ -413,7 +413,7 @@ section {
 }
 
 .mail-tel{
-    margin-top: 9px;
+    margin-top: 0px;
     
 }
 
